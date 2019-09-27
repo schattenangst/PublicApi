@@ -1,0 +1,11 @@
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Logic\bin\Debug\netcoreapp3.0\CourseWebApi.Logic.deps.json
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Logic\bin\Debug\netcoreapp3.0\CourseWebApi.Logic.dll
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Logic\bin\Debug\netcoreapp3.0\CourseWebApi.Logic.pdb
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Logic\bin\Debug\netcoreapp3.0\CourseWebApi.Common.dll
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Logic\bin\Debug\netcoreapp3.0\CourseWebApi.Common.pdb
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Logic\obj\Debug\netcoreapp3.0\CourseWebApi.Logic.csprojAssemblyReference.cache
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Logic\obj\Debug\netcoreapp3.0\CourseWebApi.Logic.AssemblyInfoInputs.cache
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Logic\obj\Debug\netcoreapp3.0\CourseWebApi.Logic.AssemblyInfo.cs
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Logic\obj\Debug\netcoreapp3.0\CourseWebApi.Logic.csproj.CopyComplete
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Logic\obj\Debug\netcoreapp3.0\CourseWebApi.Logic.dll
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Logic\obj\Debug\netcoreapp3.0\CourseWebApi.Logic.pdb

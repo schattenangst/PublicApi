@@ -1,0 +1,8 @@
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseApi.Common\bin\Debug\netcoreapp3.0\CourseWebApi.Common.deps.json
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseApi.Common\bin\Debug\netcoreapp3.0\CourseWebApi.Common.dll
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseApi.Common\bin\Debug\netcoreapp3.0\CourseWebApi.Common.pdb
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseApi.Common\obj\Debug\netcoreapp3.0\CourseWebApi.Common.AssemblyInfoInputs.cache
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseApi.Common\obj\Debug\netcoreapp3.0\CourseWebApi.Common.AssemblyInfo.cs
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseApi.Common\obj\Debug\netcoreapp3.0\CourseWebApi.Common.dll
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseApi.Common\obj\Debug\netcoreapp3.0\CourseWebApi.Common.pdb
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseApi.Common\obj\Debug\netcoreapp3.0\CourseWebApi.Common.csprojAssemblyReference.cache

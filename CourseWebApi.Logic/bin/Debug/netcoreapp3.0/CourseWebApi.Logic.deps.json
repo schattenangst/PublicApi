@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "CourseWebApi.Logic/1.0.0": {
+        "dependencies": {
+          "CourseWebApi.Common": "1.0.0"
+        },
+        "runtime": {
+          "CourseWebApi.Logic.dll": {}
+        }
+      },
+      "CourseWebApi.Common/1.0.0": {
+        "runtime": {
+          "CourseWebApi.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CourseWebApi.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CourseWebApi.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

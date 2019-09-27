@@ -1,0 +1,7 @@
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Persistence\bin\Debug\netcoreapp3.0\CourseWebApi.Persistence.deps.json
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Persistence\bin\Debug\netcoreapp3.0\CourseWebApi.Persistence.dll
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Persistence\bin\Debug\netcoreapp3.0\CourseWebApi.Persistence.pdb
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Persistence\obj\Debug\netcoreapp3.0\CourseWebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Persistence\obj\Debug\netcoreapp3.0\CourseWebApi.Persistence.AssemblyInfo.cs
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Persistence\obj\Debug\netcoreapp3.0\CourseWebApi.Persistence.dll
+C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Persistence\obj\Debug\netcoreapp3.0\CourseWebApi.Persistence.pdb
