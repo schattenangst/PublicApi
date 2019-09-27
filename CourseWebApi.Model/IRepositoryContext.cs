@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CourseWebApi.Persistence
+namespace CourseWebApi.Model.Context
 {
-    public class AutorPersistence
+    public interface IRepositoryContext
     {
     }
 }

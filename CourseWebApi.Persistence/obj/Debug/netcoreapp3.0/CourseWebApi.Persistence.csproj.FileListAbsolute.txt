@@ -5,3 +5,16 @@ C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Persistence\obj
 C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Persistence\obj\Debug\netcoreapp3.0\CourseWebApi.Persistence.AssemblyInfo.cs
 C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Persistence\obj\Debug\netcoreapp3.0\CourseWebApi.Persistence.dll
 C:\Users\eduardo.esquivel\source\repos\CourseWebApi\CourseWebApi.Persistence\obj\Debug\netcoreapp3.0\CourseWebApi.Persistence.pdb
+C:\Users\eduardo.esquivel\Source\Repos\PublicApi2\CourseWebApi.Persistence\bin\Debug\netcoreapp3.0\CourseWebApi.Persistence.deps.json
+C:\Users\eduardo.esquivel\Source\Repos\PublicApi2\CourseWebApi.Persistence\bin\Debug\netcoreapp3.0\CourseWebApi.Persistence.dll
+C:\Users\eduardo.esquivel\Source\Repos\PublicApi2\CourseWebApi.Persistence\bin\Debug\netcoreapp3.0\CourseWebApi.Persistence.pdb
+C:\Users\eduardo.esquivel\Source\Repos\PublicApi2\CourseWebApi.Persistence\obj\Debug\netcoreapp3.0\CourseWebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\eduardo.esquivel\Source\Repos\PublicApi2\CourseWebApi.Persistence\obj\Debug\netcoreapp3.0\CourseWebApi.Persistence.AssemblyInfo.cs
+C:\Users\eduardo.esquivel\Source\Repos\PublicApi2\CourseWebApi.Persistence\obj\Debug\netcoreapp3.0\CourseWebApi.Persistence.dll
+C:\Users\eduardo.esquivel\Source\Repos\PublicApi2\CourseWebApi.Persistence\obj\Debug\netcoreapp3.0\CourseWebApi.Persistence.pdb
+C:\Users\eduardo.esquivel\Source\Repos\PublicApi2\CourseWebApi.Persistence\bin\Debug\netcoreapp3.0\CourseWebApi.Common.dll
+C:\Users\eduardo.esquivel\Source\Repos\PublicApi2\CourseWebApi.Persistence\bin\Debug\netcoreapp3.0\CourseWebApi.Common.pdb
+C:\Users\eduardo.esquivel\Source\Repos\PublicApi2\CourseWebApi.Persistence\obj\Debug\netcoreapp3.0\CourseWebApi.Persistence.csprojAssemblyReference.cache
+C:\Users\eduardo.esquivel\Source\Repos\PublicApi2\CourseWebApi.Persistence\obj\Debug\netcoreapp3.0\CourseWebApi.Persistence.csproj.CopyComplete
+C:\Users\eduardo.esquivel\Source\Repos\PublicApi2\CourseWebApi.Persistence\bin\Debug\netcoreapp3.0\CourseWebApi.Model.dll
+C:\Users\eduardo.esquivel\Source\Repos\PublicApi2\CourseWebApi.Persistence\bin\Debug\netcoreapp3.0\CourseWebApi.Model.pdb

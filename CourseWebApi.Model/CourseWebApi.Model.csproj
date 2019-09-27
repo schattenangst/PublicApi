@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CourseApi.Common\CourseWebApi.Common.csproj" />
+    <Folder Include="Model\" />
   </ItemGroup>
 
 </Project>

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Contracts\IModel\" />
+    <Folder Include="Contracts\NewFolder\" />
   </ItemGroup>
 
 </Project>

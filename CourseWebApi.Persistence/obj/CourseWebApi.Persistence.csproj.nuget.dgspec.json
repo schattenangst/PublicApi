@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseWebApi.Persistence\\CourseWebApi.Persistence.csproj": {}
+    "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Persistence\\CourseWebApi.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseWebApi.Persistence\\CourseWebApi.Persistence.csproj": {
+    "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseApi.Common\\CourseWebApi.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseWebApi.Persistence\\CourseWebApi.Persistence.csproj",
-        "projectName": "CourseWebApi.Persistence",
-        "projectPath": "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseWebApi.Persistence\\CourseWebApi.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseApi.Common\\CourseWebApi.Common.csproj",
+        "projectName": "CourseWebApi.Common",
+        "projectPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseApi.Common\\CourseWebApi.Common.csproj",
         "packagesPath": "C:\\Users\\eduardo.esquivel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseWebApi.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseApi.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -43,6 +43,155 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Model\\CourseWebApi.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Model\\CourseWebApi.Model.csproj",
+        "projectName": "CourseWebApi.Model",
+        "projectPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Model\\CourseWebApi.Model.csproj",
+        "packagesPath": "C:\\Users\\eduardo.esquivel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eduardo.esquivel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/BroxelDev/_packaging/Broxel/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Persistence\\CourseWebApi.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Persistence\\CourseWebApi.Persistence.csproj",
+        "projectName": "CourseWebApi.Persistence",
+        "projectPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Persistence\\CourseWebApi.Persistence.csproj",
+        "packagesPath": "C:\\Users\\eduardo.esquivel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eduardo.esquivel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/BroxelDev/_packaging/Broxel/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseApi.Common\\CourseWebApi.Common.csproj": {
+                "projectPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseApi.Common\\CourseWebApi.Common.csproj"
+              },
+              "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Model\\CourseWebApi.Model.csproj": {
+                "projectPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Model\\CourseWebApi.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

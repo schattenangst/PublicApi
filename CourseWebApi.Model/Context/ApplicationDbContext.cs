@@ -1,13 +1,9 @@
 ﻿
 namespace CourseWebApi.Model.Context
 {
-    using CourseWebApi.Common.Entities;
     using Microsoft.EntityFrameworkCore;
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
 
-    public class ApplicationDbContext : DbContext
+    public partial class ApplicationDbContext : DbContext
     {
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
@@ -15,7 +11,7 @@ namespace CourseWebApi.Model.Context
         {
         }
 
-        public DbSet<Autor> Autores { get; set; }
-        public DbSet<Libro> Libros { get; set; }
+        //public DbSet<Autor> Autores { get; set; }
+        //public DbSet<Libro> Libros { get; set; }
     }
 }

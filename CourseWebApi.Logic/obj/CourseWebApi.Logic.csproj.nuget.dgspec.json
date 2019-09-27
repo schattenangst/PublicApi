@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseWebApi.Logic\\CourseWebApi.Logic.csproj": {}
+    "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Logic\\CourseWebApi.Logic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseApi.Common\\CourseWebApi.Common.csproj": {
+    "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseApi.Common\\CourseWebApi.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseApi.Common\\CourseWebApi.Common.csproj",
+        "projectUniqueName": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseApi.Common\\CourseWebApi.Common.csproj",
         "projectName": "CourseWebApi.Common",
-        "projectPath": "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseApi.Common\\CourseWebApi.Common.csproj",
+        "projectPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseApi.Common\\CourseWebApi.Common.csproj",
         "packagesPath": "C:\\Users\\eduardo.esquivel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseApi.Common\\obj\\",
+        "outputPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseApi.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseWebApi.Logic\\CourseWebApi.Logic.csproj": {
+    "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Logic\\CourseWebApi.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseWebApi.Logic\\CourseWebApi.Logic.csproj",
+        "projectUniqueName": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Logic\\CourseWebApi.Logic.csproj",
         "projectName": "CourseWebApi.Logic",
-        "projectPath": "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseWebApi.Logic\\CourseWebApi.Logic.csproj",
+        "projectPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Logic\\CourseWebApi.Logic.csproj",
         "packagesPath": "C:\\Users\\eduardo.esquivel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseWebApi.Logic\\obj\\",
+        "outputPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -91,8 +91,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseApi.Common\\CourseWebApi.Common.csproj": {
-                "projectPath": "C:\\Users\\eduardo.esquivel\\source\\repos\\CourseWebApi\\CourseApi.Common\\CourseWebApi.Common.csproj"
+              "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseApi.Common\\CourseWebApi.Common.csproj": {
+                "projectPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseApi.Common\\CourseWebApi.Common.csproj"
               }
             }
           }

@@ -1,10 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -13,7 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CourseApi.Common\CourseWebApi.Common.csproj" />
+    <ProjectReference Include="..\CourseWebApi.Logic\CourseWebApi.Logic.csproj" />
     <ProjectReference Include="..\CourseWebApi.Model\CourseWebApi.Model.csproj" />
+    <ProjectReference Include="..\CourseWebApi.Persistence\CourseWebApi.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

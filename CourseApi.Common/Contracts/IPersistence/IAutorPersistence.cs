@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CourseWebApi.Common.Contracts.IPersistence
+﻿namespace CourseWebApi.Common.Contracts.IPersistence
 {
+    //public interface IAutorPersistence : IBasePersistence<Autor>
+    //{
+    //}
     public interface IAutorPersistence
     {
     }
