@@ -1,9 +1,13 @@
-﻿namespace CourseWebApi.Common.Contracts.IPersistence
+﻿
+namespace CourseWebApi.Common.Contracts.IPersistence
 {
-    //public interface IAutorPersistence : IBasePersistence<Autor>
-    //{
-    //}
-    public interface IAutorPersistence
+    using CourseWebApi.Common.Entities;
+    using CourseWebApi.Model.Models;
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+
+    public interface IAutorPersistence : IBasePersistence<Autor>
     {
+        Task<MessageResponse<IEnumerable<Autor>>> GetAutores();
     }
 }

@@ -9,4 +9,8 @@
     <Folder Include="Contracts\NewFolder\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CourseWebApi.Model\CourseWebApi.Model.csproj" />
+  </ItemGroup>
+
 </Project>

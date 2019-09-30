@@ -32,7 +32,11 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Model\\CourseWebApi.Model.csproj": {
+                "projectPath": "C:\\Users\\eduardo.esquivel\\Source\\Repos\\PublicApi2\\CourseWebApi.Model\\CourseWebApi.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

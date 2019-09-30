@@ -2,15 +2,16 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CourseWebApi.Common.Contracts.ILogic
 {
     public interface IAutorLogic
     {
-        Autor GetAutor(int id);
+        Task<AutorDto> GetAutor(int id);
 
-        IEnumerable<Autor> GetAutores();
+        Task<MessageResponse<IEnumerable<AutorDto>>> GetAutores();
 
-        IEnumerable<Autor> GetAutoresRango(int limit, int offset);
+        Task<IEnumerable<AutorDto>> GetAutoresRango(int limit, int offset);
     }
 }

@@ -2,30 +2,64 @@
 namespace CourseWebApi.Logic.Implements
 {
     using CourseWebApi.Common.Contracts.ILogic;
+    using CourseWebApi.Common.Contracts.IPersistence;
     using CourseWebApi.Common.Entities;
+    using System;
     using System.Collections.Generic;
+    using System.Threading.Tasks;
 
     public class AutorLogic : IAutorLogic
     {
-        //private readonly IAutorPersistence autorPersistence;
+        private readonly IAutorPersistence autorPersistence;
 
-        public AutorLogic() //IAutorPersistence autorPersistence)
+        public AutorLogic(IAutorPersistence autorPersistence)
         {
-            //  this.autorPersistence = autorPersistence;
+            this.autorPersistence = autorPersistence;
         }
-        public Autor GetAutor(int id)
+
+        public async Task<AutorDto> GetAutor(int id)
         {
             return null;
         }
 
-        public IEnumerable<Autor> GetAutores()
+        public async Task<MessageResponse<IEnumerable<AutorDto>>> GetAutores()
         {
-            //var autores = autorPersistence.
+            MessageResponse<IEnumerable<AutorDto>> response;
 
-            return null;
+            try
+            {
+                var autores = await autorPersistence.GetAutores();
+
+                if (!autores.IsError)
+                {
+                    List<AutorDto> listaAutores = new List<AutorDto>();
+
+                    foreach (var item in autores.Response)
+                    {
+
+                        listaAutores.Add(new AutorDto
+                        {
+                            Id = item.Id,
+                            Nombre = item.Nombre
+                        });
+                    }
+
+                    response = new MessageResponse<IEnumerable<AutorDto>>(listaAutores);
+                }
+                else
+                {
+                    response = new MessageResponse<IEnumerable<AutorDto>>(autores.ErrorMessage);
+                }
+            }
+            catch (Exception ex)
+            {
+                response = new MessageResponse<IEnumerable<AutorDto>>(ex.Message);
+            }
+
+            return response;
         }
 
-        public IEnumerable<Autor> GetAutoresRango(int limit, int offset)
+        public async Task<IEnumerable<AutorDto>> GetAutoresRango(int limit, int offset)
         {
             return null;
         }

@@ -1,6 +1,7 @@
 ﻿
 namespace CourseWebApi.Model.Context
 {
+    using CourseWebApi.Model.Models;
     using Microsoft.EntityFrameworkCore;
 
     public partial class ApplicationDbContext : DbContext
@@ -11,7 +12,7 @@ namespace CourseWebApi.Model.Context
         {
         }
 
-        //public DbSet<Autor> Autores { get; set; }
-        //public DbSet<Libro> Libros { get; set; }
+        public DbSet<Autor> Autores { get; set; }
+        public DbSet<Libro> Libros { get; set; }
     }
 }

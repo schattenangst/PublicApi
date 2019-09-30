@@ -4,7 +4,7 @@ namespace CourseWebApi.Common.Entities
 {
     using System.ComponentModel.DataAnnotations;
 
-    public class Libro
+    public class LibroDto
     {
         public int Id { get; set; }
         [Required]
@@ -12,6 +12,6 @@ namespace CourseWebApi.Common.Entities
         [Required]
         public int AutorId { get; set; }
 
-        public Autor Autor { get; set; }
+        public AutorDto Autor { get; set; }
     }
 }

@@ -1,17 +1,35 @@
 ﻿namespace CourseWebApi.Persistence.Implement
 {
     using CourseWebApi.Common.Contracts.IPersistence;
-    using CourseWebApi.Persistence.Implement;
+    using CourseWebApi.Common.Entities;
+    using CourseWebApi.Model.Context;
+    using CourseWebApi.Model.Models;
+    using System;
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
 
-    public class AutorPersistence : IAutorPersistence
+    public class AutorPersistence : BasePersistence<Autor>, IAutorPersistence
     {
-        private readonly IAutorPersistence autorPersistence;
-
-        public AutorPersistence(IAutorPersistence autorPersistence)
+        public AutorPersistence(IRepositoryContext context) : base(context)
         {
-            this.autorPersistence = autorPersistence;
         }
 
+        public async Task<MessageResponse<IEnumerable<Autor>>> GetAutores()
+        {
+            MessageResponse<IEnumerable<Autor>> response;
 
+            try
+            {
+                var autores = await this.FindAllAsync();
+
+                response = new MessageResponse<IEnumerable<Autor>>(autores);
+            }
+            catch (Exception ex)
+            {
+                response = new MessageResponse<IEnumerable<Autor>>(ex.Message);
+            }
+
+            return response;
+        }
     }
 }

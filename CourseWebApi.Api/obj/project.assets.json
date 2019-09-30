@@ -1293,6 +1293,9 @@
       "CourseWebApi.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "CourseWebApi.Model": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CourseWebApi.Common.dll": {}
         },
@@ -5086,9 +5089,7 @@
         }
       },
       "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
+        "allWarningsAsErrors": true
       }
     },
     "frameworks": {

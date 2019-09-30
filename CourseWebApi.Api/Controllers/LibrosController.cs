@@ -21,14 +21,14 @@ namespace CourseWebApi.Api.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Libro>> Get()
+        public ActionResult<IEnumerable<LibroDto>> Get()
         {
             //return context.Libros.Include(x => x.Autor).ToList();
             return Ok();
         }
 
         [HttpGet("{id}", Name = "ObtenerLibro")]
-        public ActionResult<Libro> Get(int id)
+        public ActionResult<LibroDto> Get(int id)
         {
             //var libro = context.Libros.Include(x => x.Autor).FirstOrDefault(x => x.Id == id);
 
@@ -41,7 +41,7 @@ namespace CourseWebApi.Api.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] Libro libro)
+        public ActionResult Post([FromBody] LibroDto libro)
         {
             //    context.Libros.Add(libro);
             //    context.SaveChanges();

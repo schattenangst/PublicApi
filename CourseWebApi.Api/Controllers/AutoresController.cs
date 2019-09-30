@@ -5,8 +5,10 @@ namespace CourseWebApi.Api.Controllers
     using CourseWebApi.Common.Entities;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.EntityFrameworkCore;
+    using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Threading.Tasks;
 
     [Route("api/[controller]")]
     [ApiController]
@@ -20,14 +22,22 @@ namespace CourseWebApi.Api.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Autor>> Get()
+        public async Task<MessageResponse<IEnumerable<AutorDto>>> Get()
         {
-            return Ok();
-            //return context.Autores.ToList();
+            MessageResponse<IEnumerable<AutorDto>> response;
+
+            response = await autorLogic.GetAutores();
+
+            if (response.IsError)
+            {
+                response = new MessageResponse<IEnumerable<AutorDto>>("Ocurrio un error al consultar los autores.");
+            }
+
+            return response;
         }
 
         [HttpGet("{id}", Name = "ObtenerAutor")]
-        public ActionResult<Autor> Get(int id)
+        public ActionResult<AutorDto> Get(int id)
         {
             //var autor = context.Autores.FirstOrDefault(x => x.Id == id);
 
@@ -40,7 +50,7 @@ namespace CourseWebApi.Api.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] Autor autor)
+        public ActionResult Post([FromBody] AutorDto autor)
         {
             //context.Autores.Add(autor);
             //context.SaveChanges();
@@ -50,7 +60,7 @@ namespace CourseWebApi.Api.Controllers
         }
 
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Autor value)
+        public ActionResult Put(int id, [FromBody] AutorDto value)
         {
             //if (id != value.Id)
             //{
@@ -63,7 +73,7 @@ namespace CourseWebApi.Api.Controllers
         }
 
         [HttpDelete("{id}")]
-        public ActionResult<Autor> Delete(int id)
+        public ActionResult<AutorDto> Delete(int id)
         {
             //var autor = context.Autores.FirstOrDefault(x => x.Id == id);
 

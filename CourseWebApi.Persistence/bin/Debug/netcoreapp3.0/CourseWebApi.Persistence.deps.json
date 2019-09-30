@@ -814,6 +814,9 @@
         }
       },
       "CourseWebApi.Common/1.0.0": {
+        "dependencies": {
+          "CourseWebApi.Model": "1.0.0"
+        },
         "runtime": {
           "CourseWebApi.Common.dll": {}
         }
